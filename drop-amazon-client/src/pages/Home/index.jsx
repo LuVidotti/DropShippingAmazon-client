@@ -6,6 +6,7 @@ import fotoRyan from "../../img/fotoRyan.jpeg";
 import fotoRafa from "../../img/fotoRafa.png";
 import "./Home.css";
 import Depoimento from "../../components/Depoimento";
+import BotaoComprar from "../../components/BotaoComprar";
 
 function Home() {
     return (
@@ -47,6 +48,8 @@ function Home() {
                     />
                 </div>
             </section>
+
+            <BotaoComprar />
         </div>
     )
 }
