@@ -1,0 +1,29 @@
+.depoimento-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    gap: 1em;
+    border: 3px solid #303340;
+    padding: 32px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.depoimento-card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.depoimento-card span {
+    font-family: "Oswald", "sans-serif";
+    color: #F0B541;
+    font-size: 22px;
+}
+
+.depoimento-card p {
+    color: #424658;
+    text-align: center;
+    margin-top: 1em;
+    line-height: 25px;
+}
