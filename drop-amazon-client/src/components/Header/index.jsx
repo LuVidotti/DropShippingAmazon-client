@@ -4,13 +4,12 @@ import Logo from "../../img/fundoAzulado.png";
 function Header() {
     return (
         <header className="cabecalho">
-            <img src={Logo} alt="Logotipo do curso" />
+            <img onClick={() => window.location.reload()} src={Logo} alt="Logotipo do curso" />
             <div className="cabecalho__links">
-                <a href="" className="cabecalho__links--link">Sobre</a>
-                <a href="" className="cabecalho__links--link">Instrutor</a>
-                <a href="" className="cabecalho__links--link">Conquistas</a>
+                <a href="#sobre" className="cabecalho__links--link">Sobre</a>
+                <a href="#instrutor" className="cabecalho__links--link">Instrutor</a>
                 <a href="" className="cabecalho__links--link">Depoimentos</a>
-                <a href="" className="cabecalho__links--comprar">Comprar</a>
+                <a href="https://pay.kiwify.com.br/SAANrg6" className="cabecalho__links--comprar">Comprar</a>
             </div>
         </header>
     )

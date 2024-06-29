@@ -20,3 +20,45 @@
     font-size: 20px;
     line-height: 30px;
 }
+
+.sobre__btn-comprar {
+    text-decoration: none;
+    color: #15161C;
+    background-color: #F0B541;
+    padding: 10px 16px;
+    font-family: "Oswald", "sans-serif";
+    font-weight: 700;
+    margin-top: 3em;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all .25s;
+}
+
+.sobre__btn-comprar:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 50px 15px rgb(240, 181, 65, 0.25);
+}
+
+.instrutor__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;   
+    gap: 5em; 
+}
+
+.instrutor__container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+}
+
+.instrutor__container p {
+    width: 400px;
+    color: #A5A5A5;
+    font-size: 22px;
+    text-align: justify;
+    line-height: 35px;
+    font-family: "Oswald", "sans-serif";
+    font-weight: 600;
+}
