@@ -7,6 +7,7 @@ import fotoRafa from "../../img/fotoRafa.png";
 import "./Home.css";
 import Depoimento from "../../components/Depoimento";
 import BotaoComprar from "../../components/BotaoComprar";
+import Footer from "../../components/Footer";
 
 function Home() {
     return (
@@ -50,6 +51,7 @@ function Home() {
             </section>
 
             <BotaoComprar />
+            <Footer />
         </div>
     )
 }
