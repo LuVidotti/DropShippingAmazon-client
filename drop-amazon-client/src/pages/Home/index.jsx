@@ -8,6 +8,7 @@ import "./Home.css";
 import Depoimento from "../../components/Depoimento";
 import BotaoComprar from "../../components/BotaoComprar";
 import Footer from "../../components/Footer";
+import VideoBoasVindas from "../../videos/PAGINA DE VENDAS.mp4";
 
 function Home() {
     return (
@@ -16,9 +17,15 @@ function Home() {
             <section className="sobre" id="sobre">
                 <Titulo>Sobre o curso</Titulo>
                 <div className="container">
-                    <p className="sobre__texto">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    </p>
+                    <video
+                        src={VideoBoasVindas}
+                        width={900}
+                        height={700}
+                        className="sobre-video"
+                        controls
+                    >
+
+                    </video>
                     <a href="https://pay.kiwify.com.br/SAANrg6" className="sobre__btn-comprar">Compre agora</a>
                 </div>
             </section>

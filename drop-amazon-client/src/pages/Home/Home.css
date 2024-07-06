@@ -12,13 +12,9 @@
     place-items: center;
 }
 
-.sobre__texto {
-    width: 70%;
-    color: #A5A5A5;
-    text-align: center;
-    margin-top: 3em;
-    font-size: 20px;
-    line-height: 30px;
+.sobre-video {
+    margin-top: 4em;
+    margin-bottom: 2em;
 }
 
 .sobre__btn-comprar {
